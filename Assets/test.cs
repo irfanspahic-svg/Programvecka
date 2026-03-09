@@ -9,16 +9,16 @@ using System.Collections.Generic;
 public class test : MonoBehaviour
 {
 
-    private string apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent";
+    // private string apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(GetDataFromApi());
+      //  StartCoroutine(GetDataFromApi());
        // StartCoroutine(PostDataFromApi());
     }
-    IEnumerator GetDataFromApi()
+  /* IEnumerator GetDataFromApi()
     {
-        using (UnityWebRequest request = new UnityWebRequest(apiUrl))
+       // using (UnityWebRequest request = new UnityWebRequest(apiUrl))
         {
 
             request.SetRequestHeader("Content-Type", "application/json");
